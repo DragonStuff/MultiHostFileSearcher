@@ -1,0 +1,6 @@
+curl -X PUT "localhost:9200/twitter/_doc/1" -H 'Content-Type: application/json' -d'
+{
+    "host" : "apricot-osx",
+    "path" : "/Users/Guest/Desktop"
+}
+'
